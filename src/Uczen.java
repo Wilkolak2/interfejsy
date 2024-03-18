@@ -1,4 +1,4 @@
-public interface Uczen {
+public interface Uczen{
     void uczSie();
     void spij();
 }

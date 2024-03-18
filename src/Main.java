@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -22,6 +24,12 @@ public class Main {
             u.spij();
             System.out.println("-----------------------------");
         }
-        uczniowie.sort();
+        ArrayList<PilnyUczen> pilniUczniowie = new ArrayList<>();
+        pilniUczniowie.add(zygmunt);
+        pilniUczniowie.add(filip);
+        zygmunt.uczSie();
+        zygmunt.uczSie();
+        Collections.sort(pilniUczniowie);
+        System.out.println(pilniUczniowie);
     }
 }
